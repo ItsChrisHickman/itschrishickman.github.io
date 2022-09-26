@@ -82,40 +82,70 @@ To get started, refer to [these code snippet examples](https://support.matterpor
 
 ### FAQs  <a href="#faqs" id="faqs"></a>
 
-#### What is an API?&#x20;
+<details>
+
+<summary>What is an API?</summary>
 
 API is short for "[application programming interface](https://en.wikipedia.org/wiki/Application\_programming\_interface)." This is a communications protocol between different parts of a computer program. The main intention of an API is to simplify the implementation and maintenance of software.&#x20;
 
 Matterport APIs allow developers or customers to programmatically connect their systems or applications directly to the Matterport system in order to access and modify data.&#x20;
 
-#### Matterport also offers an "SDK." What's the difference?&#x20;
+</details>
+
+<details>
+
+<summary>Matterport also offers an "SDK." What's the difference? </summary>
 
 Prior to the Matterport API beta, Matterport developers primarily utilized the Showcase SDK (software development kit). The API beta is a supplemental feature. Let's go over the differences below..&#x20;
 
-**Showcase SDK**&#x20;
+</details>
+
+<details>
+
+<summary><strong>Showcase SDK</strong> </summary>
 
 The Showcase SDK is a set of programming commands that can be used by developers to extend Showcase capabilities, even if the Showcase is directly imbedded on another site or platform. Think of it as a thin, invisible layer that sits on top of the Showcase iFrame, only __ on the developer page. With that in mind, the SDK affects the experience only on one developer page per use. As such, models that have been shared on multiple sites are affected only on the developer's page where the SDK has been applied.&#x20;
 
-**API**
+</details>
+
+<details>
+
+<summary><strong>API</strong></summary>
 
 As opposed to the SDK, the API connects directly __ to the Matterport backend. This allows developers to perform a variety of commands, like searching, reading data, changing data, and placing orders. The Matterport API allows developers to programmatically perform actions that customers take on our site.&#x20;
 
-#### What accounts can I access using the API?&#x20;
+</details>
+
+<details>
+
+<summary>What accounts can I access using the API? </summary>
 
 We recommend only using the API to access the customer's account and models. __ Keep in mind, the API token is essentially a set of administrative credentials, and provides full access to the account, even to make purchases via API.&#x20;
 
-#### What APIs are currently available?
+</details>
+
+<details>
+
+<summary>What APIs are currently available?</summary>
 
 Matterport currently offers two APIs:
 
 * Model API. These commands search, read, and change model data, including model details like the name and address of the space, sharing URLs, images, videos, position data, the OBJ mesh file, the point cloud file, panoramic imagery, position points, and Tags.
 * Account API (available only with Enterprise subscription tiers). These commands include managing users, inviting, updating permissions, and managing SDK keys.
 
-#### What do I need to be able to access the Account API?
+</details>
+
+<details>
+
+<summary>What do I need to be able to access the Account API?</summary>
 
 You need to have a developer license on any of our Enterprise SaaS Tiers.
 
-#### How do I get started?&#x20;
+</details>
+
+<details>
+
+<summary>How do I get started? </summary>
 
 You'll need to request an API token. To do so:&#x20;
 
@@ -124,6 +154,8 @@ You'll need to request an API token. To do so:&#x20;
 3. Select Developer Tools.
 4. Go to the API Token Management section.
    * Here, you can request and revoke API keys.&#x20;
+
+</details>
 
 #### More questions?&#x20;
 
