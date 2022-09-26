@@ -96,21 +96,13 @@ Matterport APIs allow developers or customers to programmatically connect their 
 
 <summary>Matterport also offers an "SDK." What's the difference? </summary>
 
-Prior to the Matterport API beta, Matterport developers primarily utilized the Showcase SDK (software development kit). The API beta is a supplemental feature. Let's go over the differences below..&#x20;
+Prior to the Matterport API beta, Matterport developers primarily utilized the Showcase SDK (software development kit). The API beta is a supplemental feature. Let's go over the differences below...
 
-</details>
-
-<details>
-
-<summary><strong>Showcase SDK</strong> </summary>
+**Showcase SDK**
 
 The Showcase SDK is a set of programming commands that can be used by developers to extend Showcase capabilities, even if the Showcase is directly imbedded on another site or platform. Think of it as a thin, invisible layer that sits on top of the Showcase iFrame, only __ on the developer page. With that in mind, the SDK affects the experience only on one developer page per use. As such, models that have been shared on multiple sites are affected only on the developer's page where the SDK has been applied.&#x20;
 
-</details>
-
-<details>
-
-<summary><strong>API</strong></summary>
+**API**
 
 As opposed to the SDK, the API connects directly __ to the Matterport backend. This allows developers to perform a variety of commands, like searching, reading data, changing data, and placing orders. The Matterport API allows developers to programmatically perform actions that customers take on our site.&#x20;
 
