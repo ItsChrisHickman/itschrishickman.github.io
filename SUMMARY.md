@@ -33,7 +33,7 @@
 
 ## Matterport APIs
 
-* [Overview](matterport-apis/overview.md)
+* [Overview](matterport-apis/overiew.md)
 * [Connecting to our APIs](matterport-apis/connecting-to-our-apis.md)
 * [Model API](matterport-apis/model-api/README.md)
   * [Sample Queries](matterport-apis/model-api/sample-queries.md)

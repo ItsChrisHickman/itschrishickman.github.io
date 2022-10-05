@@ -1,4 +1,4 @@
-# Overiew
+# Overview
 
 Our developer community is full of industry professionals who want to integrate Matterport into their every-day workflows. We're committed to face this challenge, and that starts with opening up our API to architects, engineers, and any other [professionals who want to dive deeper into our platform](https://matterport.com/platform/developers).&#x20;
 
@@ -18,16 +18,16 @@ To access the interactive console, you need to be logged into Matterport Cloud (
 2. Click Settings in the lower left.
 3. Select Developer Tools.
 4. Go to the API Token Management section.&#x20;
-   * Here, you can request and revoke API keys.&#x20;
+5. Request new API Keys.
 
 You need to generate an API key that allows you to connect to our API endpoints. You can generate up to five keys for use across the different applications you want to build. When you create a new key, you are presented with the following:&#x20;
 
-* Token Secret&#x20;
-  * This is presented only once, so make sure to copy and save it securely.&#x20;
-* Token ID&#x20;
-  * This appears on the settings page.
+* Token Secret - This is presented only once, so make sure to copy and save it securely.&#x20;
+* Token ID - This appears on the settings page.
 
-API keys are "admin" or "all-access" keys. This means they grant users administrative credentials to the customer account. Using the API with the generated API key, developers can perform all administrative functions using the API, including archiving models and purchasing floorplans and MatterPaks. It's important to remember this when sharing your API keys. We strongly advise that you don't share your API keys with third-party companies or developers.
+API keys are "admin" or "all-access" keys that grant users administrative credentials to the customer account.  The generated API key can be used to perform all administrative functions using the API, including archiving models and purchasing floorplans and MatterPaks.&#x20;
+
+It's important to remember this when sharing your API keys. We strongly advise that you don't share your API keys with third-party companies or developers outside of you company.
 
 Note that accounts have only Sandbox mode enabled by default. For more information about Sandbox Mode, refer to the [Developer Tools Availability and Pricing](https://support.matterport.com/s/article/Developer-Tools-Pricing-and-Availability?language=en\_US) article.
 
@@ -42,7 +42,7 @@ Note that accounts have only Sandbox mode enabled by default. For more informati
 
 All standard http libraries should support this process, but make sure to set your preemptive authorization to "true".  &#x20;
 
-For more information, refer to the [How do I connect and authenticate my API token?](https://support.matterport.com/s/article/API-FAQs?language=en\_US#authenticate) article.
+For more information, refer to the [How do I connect and authenticate my API token?](connecting-to-our-apis.md) article.
 
 ### Error Codes  <a href="#error-codes" id="error-codes"></a>
 
